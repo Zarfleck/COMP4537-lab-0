@@ -1,0 +1,67 @@
+.board {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-section-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;  
+}
+
+#outcome {
+    font-size: 30px;
+}
+
+#numberInput {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#enterButton {
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
